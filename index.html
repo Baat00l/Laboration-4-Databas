@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>JSON Server Frontend</title>
+</head>
+<body>
+  <h1>Användare</h1>
+  <ul id="userList"></ul>
+
+  <script>
+    fetch('http://localhost:3000/users')
+      .then(response => response.json())
+      .then(data => {
+        const list = document.getElementById('userList');
+        data.forEach(user => {
+          const item = document.createElement('li');
+          item.textContent = `${user.name} (${user.email})`;
+          list.appendChild(item);
+        });
+      })
+      .catch(error => console.error('Fel vid hämtning:', error));
+  </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+# Laboration 4 – JavaScript + JSON Server
+
+Detta projekt visar hur en enkel JavaScript-frontend kan hämta data från en lokal JSON-server via ett REST API.
+
+##  Tekniker som används
+
+- **HTML** – för att skapa en enkel webbsida
+- **JavaScript** – för att hämta och visa data med `fetch()`
+- **JSON Server** – för att simulera ett REST API med lokal data
+- **Node.js** – krävs för att köra JSON Server
+
+##  Installation och körning
+
+1. Installera JSON Server:
+   ```bash
+   npm install -g json-server
