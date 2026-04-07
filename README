@@ -1,37 +1,37 @@
-📚 Laboration 4 – JavaScript + JSON Server
+# 📚 Laboration 4 – JavaScript + JSON Server
 
-Detta projekt demonstrerar hur man hämtar och visar data från en lokal **JSON Server** med hjälp av enkel JavaScript och `fetch()`. Applikationen listar användare från `db.json` direkt på webbsidan.
-
----
-
-🛠️ Tekniker
-
-- **HTML** – enkel frontend
-- **JavaScript (fetch API)** – hämtar data från JSON Server
-- **JSON Server** – lokal REST‑API server
-- **Node.js** – krävs för att köra JSON Server
+Detta projekt visar hur man hämtar och visar data från en lokal **JSON Server** med hjälp av enkel JavaScript och `fetch()`.  
+Applikationen listar användare från `db.json` direkt på webbsidan.
 
 ---
 
-📁 Projektstruktur
+## 🛠️ Tekniker
+
+- 🌐 **HTML** – enkel frontend  
+- ⚡ **JavaScript (Fetch API)** – hämtar data från servern  
+- 🗄️ **JSON Server** – lokal REST‑API server  
+- 🧩 **Node.js** – krävs för att köra JSON Server  
+
+---
+
+## 📁 Projektstruktur
 
 /Laboration-4-Databas
 │── index.html
 │── db.json
-
 ---
 
-📦 Installation
+## 📦 Installation
 
-1. Klona projektet
+### 1️⃣ Klona projektet
 ```bash
 git clone https://github.com/Baat00l/Laboration-4-Databas.git
 cd Laboration-4-Databas
 
-2. Installera JSON Server 
+2️⃣ Installera JSON Server
 npm install -g json-server
 
-3. Starta JSON Server 
+3️⃣ Starta JSON Server
 json-server --watch db.json --port 3000
 
 Servern körs nu på:
